@@ -24,7 +24,7 @@ def google_search(query, api_key='AIzaSyDPJXOCWlCNvIumpWDvviugfE_bM9xObA0', cse_
     return combined_text
 
 def chatbot():
-    print("Welcome to the AI Chatbot! Ask me anything or type 'exit' to quit.\n")
+    print("Welcome to the Nexus! Ask me anything or type 'exit' to quit.\n")
     while True:
         question = input("You: ").strip()
         if question.lower() == "exit":
@@ -42,3 +42,4 @@ def chatbot():
 
 if __name__ == "__main__":
     chatbot()
+
